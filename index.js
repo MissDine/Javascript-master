@@ -1,4 +1,5 @@
 //Conditions
+//if else, else if, else
 let num1 = 11;
 let num2 = 11;
 let result = num2 > num1
@@ -28,3 +29,6 @@ console.log(inove);
 const tribe = prompt("Guess my tribe")
 tell = tribe==="Kisii"?"Right":"Guess again"
 console.log(tell);
+
+//SWitch
+const status = prompt("Am I married?")
