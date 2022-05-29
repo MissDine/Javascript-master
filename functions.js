@@ -56,3 +56,7 @@ let resultOne = greetings();
 console.log(resultOne);
 
 //Methods
+//THe only difference btwn method and functions is that methods are invoked using the dot notation eg name.toUpperCase() eg
+let namee = "enid"
+let resultTwo = namee.toUpperCase();
+console.log(resultTwo);
