@@ -88,7 +88,7 @@ love.forEach((love, index) => console.log(`${index} Love is ${love}`))
 const ul =document.querySelector(".people")
 const people = ["Enid", "Pauline", "Lilian", "Sharon"]
 let html = ``;
-people.forEach(function(person){
+people.forEach((person) =>{
     html += `<li style = "color:Purple">${person}</>`
 })
 console.log(html);
