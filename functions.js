@@ -72,6 +72,9 @@ console.log(city());
 //forEach -Is a method that iterates over the array eg
 majina = ["Moraa", "Marube", "Maosa", "Moma"]
 
-majina.forEach(function (jina){
-    console.log(jina);
+majina.forEach(function (jina,age){
+    console.log(jina, age = "You are 18!");
 })
+
+const loves = ["kind", "Goodness","Patience", "Understanding", "Honest","Humility"]
+loves.forEach((love, description ) => console.log(description = "Love is ", love))
