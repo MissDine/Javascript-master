@@ -37,4 +37,12 @@ calArea(8,9)
 let area = calArea
 area(7,5)
 
-//Arrow
+//Arrow functions
+const circumference = (radius) => {
+    return 3.14 * 2*radius
+}
+console.log(circumference(7))
+
+const cirCumference = (diameter) => 3.14 *diameter;
+console.log(cirCumference(28));
+
