@@ -4,5 +4,10 @@ function isEnid(cat){
         console.log("Hello");
         return
             "Hi Enid you look beautiful"
+    }else{
+        return(
+            `Hi ${cat}`
+        )
     }
 }
+
