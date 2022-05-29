@@ -68,3 +68,10 @@ console.log(value());
 
 const destination = (city = () => "Nairobi")
 console.log(city());
+
+//forEach -Is a method that iterates over the array eg
+majina = ["Moraa", "Marube", "Maosa", "Moma"]
+
+majina.forEach(function (jina){
+    console.log(jina);
+})
