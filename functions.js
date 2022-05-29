@@ -46,3 +46,7 @@ console.log(circumference(7))
 const cirCumference = (diameter) => 3.14 *diameter;
 console.log(cirCumference(28));
 
+const greet = () => "Hey gal"
+const result = greet();
+console.log(result);
+
