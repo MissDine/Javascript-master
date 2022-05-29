@@ -18,6 +18,9 @@ let sixBySeven = doMath(6,7)
 
 
 
-//Arrow function
-const helloDine = names => names;
-helloDine()
+const speak = function(){
+    console.log("Good day Enid");
+}
+speak()
+
+
