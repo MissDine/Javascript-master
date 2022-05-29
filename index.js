@@ -10,4 +10,7 @@ if(num2 >num1){
     console.log("They are equal");
 }
 
-//
+//Ternary condition
+const namee =prompt("What is my name?")
+points = namee === "Enidd"?"You are right" :"You are wrong"
+console.log(points)
