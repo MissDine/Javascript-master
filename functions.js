@@ -60,3 +60,11 @@ console.log(resultOne);
 let namee = "enid"
 let resultTwo = namee.toUpperCase();
 console.log(resultTwo);
+
+//Callback functions-are functions that are passed in as arguments
+const mine  = (value = () => 50)
+
+console.log(value());
+
+const destination = (city = () => "Nairobi")
+console.log(city());
