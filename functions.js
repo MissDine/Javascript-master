@@ -78,3 +78,9 @@ majina.forEach(function (jina,age){
 
 const loves = ["kind", "Goodness","Patience", "Understanding", "Honest","Humility"]
 loves.forEach((love, description ) => console.log(description = "Love is ", love))
+
+
+//Adding the index in the array
+const love = ["kind", "Goodness","Patience", "Understanding", "Honest","Humility"]
+love.forEach((love, index) => console.log(`${index} Love is ${love}`))
+
