@@ -50,3 +50,9 @@ const greet = () => "Hey gal"
 const result = greet();
 console.log(result);
 
+//Functions
+const greetings = () => "Hey miss";
+let resultOne = greetings();
+console.log(resultOne);
+
+//Methods
