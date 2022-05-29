@@ -14,3 +14,7 @@ if(num2 >num1){
 const namee =prompt("What is my name?")
 points = namee === "Enidd"?"You are right" :"You are wrong"
 console.log(points)
+
+{
+    const age = prompt("How old am I?");age ===15?console.log("10"):console.log("0");
+}    
